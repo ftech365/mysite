@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- レスポンシブ対応のビューポート設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FTech365 - 仮想化基盤・MSSQL・セキュリティを得意とするインフラエンジニア。SESフリーランスとして即戦力参画が可能です。">
+  <title>FTech365 | インフラエンジニア</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== ナビゲーション（固定） ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">FTech<span class="nav__logo-accent">365</span></a>
+      <ul class="nav__links">
+        <li><a href="#about"   class="nav__link">About</a></li>
+        <li><a href="#skills"  class="nav__link">Skills</a></li>
+        <li><a href="#career"  class="nav__link">経歴</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== ヒーロー：2カラム ========== -->
+  <header class="hero" id="top">
+    <!-- 背景：サーバールーム風ドットグリッド＋スキャンライン -->
+    <div class="hero__grid"     aria-hidden="true"></div>
+    <div class="hero__scanline" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+
+      <!-- 左：自己紹介テキスト -->
+      <div class="hero__content">
+        <h1 class="hero__name" id="top">
+          FTech<span class="hero__name-accent">365</span>
+        </h1>
+        <!-- 肩書きを1箇所に統一 -->
+        <p class="hero__title">SES フリーランス インフラエンジニア</p>
+
+        <!-- キャッチコピー -->
+        <p class="hero__catch">確かな手で、成長するシステム基盤を</p>
+        <!-- サービス説明 -->
+        <p class="hero__tagline">
+          仮想化基盤・Windows Server・Microsoft SQL Server を軸に<br>
+          セキュリティを考慮したソリューション技術をご提供します。
+        </p>
+
+        <!-- 対応フェーズタグ -->
+        <div class="hero__phases">
+          <span class="hero__phase">要件定義・設計</span>
+          <span class="hero__phase">構築・検証</span>
+          <span class="hero__phase">運用・保守</span>
+          <span class="hero__phase">障害対応</span>
+        </div>
+
+        <!-- CTAボタン -->
+        <div class="hero__cta">
+          <a href="#skills" class="btn btn--primary">スキルを見る</a>
+        </div>
+      </div>
+
+      <!-- 右：ターミナル風プロフィールカード（写真の代替として） -->
+      <div class="hero__figure">
+
+        <!-- macOS風ターミナルカード -->
+        <div class="hero__terminal">
+          <!-- タイトルバー -->
+          <div class="terminal-bar">
+            <span class="terminal-dot terminal-dot--red"></span>
+            <span class="terminal-dot terminal-dot--yellow"></span>
+            <span class="terminal-dot terminal-dot--green"></span>
+            <span class="terminal-bar__title">profile.sh</span>
+          </div>
+          <!-- コンテンツ -->
+          <div class="terminal-body">
+            <p class="terminal-line"><span class="terminal-prompt">$</span> whoami</p>
+            <p class="terminal-output">FTech365</p>
+
+            <p class="terminal-line"><span class="terminal-prompt">$</span> role</p>
+            <p class="terminal-output">インフラエンジニア</p>
+
+            <p class="terminal-line"><span class="terminal-prompt">$</span> experience</p>
+            <p class="terminal-output">10年以上</p>
+
+            <p class="terminal-line"><span class="terminal-prompt">$</span> skills --top</p>
+            <p class="terminal-output">[ 仮想化基盤, MSSQL, WindowsServer ]</p>
+
+            <p class="terminal-line"><span class="terminal-prompt">$</span> cert --list</p>
+            <p class="terminal-output">・LPIC level1（失効）</p>
+            <p class="terminal-output">・基本情報技術者試験</p>
+            <p class="terminal-output">・情報処理安全確保支援士（2025 秋）</p>
+
+            <p class="terminal-line"><span class="terminal-prompt">$</span> status</p>
+            <!-- 緑色で稼働状況を表示 -->
+            <p class="terminal-output terminal-output--green">
+              ✓ 現在参画中 <span class="terminal-cursor">█</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========== メインコンテンツ ========== -->
+  <main>
+
+    <!-- About セクション -->
+    <section class="section" id="about">
+      <div class="section__inner">
+        <p class="section__eyebrow">ABOUT</p>
+        <h2 class="section__title">自己紹介</h2>
+
+        <div class="about__grid">
+
+          <!-- 自己紹介文 -->
+          <div class="about__text">
+            <p>
+              インフラエンジニアとして10年以上の経験を持ち、
+              仮想化基盤の設計・構築を中心に中小規模のシステムに携わってきました。
+            </p>
+            <p>
+              MSSQLの深い知識を活かしたデータベース設計・チューニング、
+              情報処理安全確保支援士として培ったセキュリティ設計の知見を武器に、
+              お客様のシステムを安定・安全に支えます。
+            </p>
+            <p>
+              チームリーダー経験もあり、プロジェクト推進や障害対応において
+              問題意識を持ち、積極的な働きかけで課題解決に尽力してきました。
+            </p>
+          </div>
+
+          <!-- 数字スタッツ（数値は実績に合わせて書き換えてください） -->
+          <div class="about__stats">
+            <div class="stat-card">
+              <span class="stat-number">10<span class="stat-unit">年+</span></span>
+              <span class="stat-label">エンジニア経験</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">20<span class="stat-unit">件+</span></span>
+              <span class="stat-label">参画プロジェクト</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3</span>
+              <span class="stat-label">主要スキル領域</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2</span>
+              <span class="stat-label">国家資格</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- スキルセクション（アイコン＋バー形式） -->
+    <section class="section section--dark" id="skills">
+      <div class="section__inner">
+        <p class="section__eyebrow">SKILLS</p>
+        <h2 class="section__title">スキル</h2>
+        <p class="section__subtitle">技術スタック・対応領域</p>
+
+        <div class="skill-grid">
+
+          <!-- ===== main ===== -->
+
+          <!-- VMware（main） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">仮想化基盤（VMware）</span>
+              <span class="skill-bar-tag">main</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="95"></div>
+            </div>
+          </div>
+
+          <!-- MSSQL（main） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">Microsoft SQL Server</span>
+              <span class="skill-bar-tag">main</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="90"></div>
+            </div>
+          </div>
+
+          <!-- Windows Server（main） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">Windows Server（Windowsコンポーネント含む）構築 / 運用・保守</span>
+              <span class="skill-bar-tag">main</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="92"></div>
+            </div>
+          </div>
+
+          <!-- セキュリティ（main） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">セキュリティ設計・構築（ウィルス対策、監視）</span>
+              <span class="skill-bar-tag">main</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="82"></div>
+            </div>
+          </div>
+
+          <!-- ===== sub ===== -->
+
+          <!-- Hyper-V（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">仮想化基盤（Hyper-V）</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <!-- Linux構築（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">Linux 構築 / 保守</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="65"></div>
+            </div>
+          </div>
+
+          <!-- AWS（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">AWS クラウドインフラ</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="68"></div>
+            </div>
+          </div>
+
+          <!-- PostgreSQL（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">PostgreSQL（RDS 他）</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="65"></div>
+            </div>
+          </div>
+
+          <!-- PowerShell / C#（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">スクリプト（PowerShell / C#）</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="75"></div>
+            </div>
+          </div>
+
+          <!-- チームリーダー（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">チームリーダーシップ</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+          </div>
+
+          <!-- 基盤関連技術（sub） -->
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-bar-name">基盤関連技術（ストレージ, FCSW, NWSW 他）</span>
+              <span class="skill-bar-tag skill-bar-tag--sub">sub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="75"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- アピールポイントセクション -->
+    <section class="section" id="appeal">
+      <div class="section__inner">
+        <p class="section__eyebrow">STRENGTHS</p>
+        <h2 class="section__title">アピールポイント</h2>
+        <p class="section__subtitle">得意領域・強み</p>
+
+        <div class="cards">
+
+          <!-- 仮想化基盤 -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="3" width="20" height="5" rx="1"/>
+                <rect x="2" y="10" width="20" height="5" rx="1"/>
+                <rect x="2" y="17" width="20" height="5" rx="1"/>
+                <circle cx="19" cy="5.5"  r="0.8" fill="currentColor"/>
+                <circle cx="19" cy="12.5" r="0.8" fill="currentColor"/>
+                <circle cx="19" cy="19.5" r="0.8" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="card__title">仮想化基盤構築</h3>
+            <p class="card__text">
+              VMware を中心とした仮想化プラットフォームの設計・構築・運用を担当。
+              複数プロジェクトでの実績を持ち、安定した基盤提供が可能です。
+            </p>
+          </div>
+
+          <!-- MSSQL -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v5c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+                <path d="M3 10v5c0 1.66 4.03 3 9 3s9-1.34 9-3v-5"/>
+                <path d="M3 15v4c0 1.66 4.03 3 9 3s9-1.34 9-3v-4"/>
+              </svg>
+            </div>
+            <h3 class="card__title">MSSQL 経験多数</h3>
+            <p class="card__text">
+              Microsoft SQL Server の構築・チューニング・運用保守を多数経験。
+              パフォーマンス改善やバックアップ設計に加え冗長構成（AlwaysOn 他）など、実践的なスキルを保有しています。
+            </p>
+          </div>
+
+          <!-- セキュリティ -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V6L12 2z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="card__title">セキュリティ知識完備</h3>
+            <p class="card__text">
+              ネットワークセキュリティ・アクセス制御・脆弱性対策まで幅広く対応。
+              セキュアなインフラ設計・運用でリスクを最小化します。
+            </p>
+            <span class="card__badge">情報処理安全確保支援士 取得（2025年度 秋季）</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 経歴タイムライン -->
+    <section class="section section--dark" id="career">
+      <div class="section__inner">
+        <p class="section__eyebrow">CAREER</p>
+        <h2 class="section__title">経歴</h2>
+        <p class="section__subtitle">職務経歴・参画プロジェクト（一部抜粋）</p>
+
+        <div class="timeline">
+
+          <!-- 2020年〜現在：フリーランス -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+              <div class="timeline__line"></div>
+            </div>
+            <div class="timeline__content">
+              <span class="timeline__period">2020年〜現在</span>
+              <h3 class="timeline__title">フリーランスエンジニア</h3>
+              <ul class="timeline__desc-list">
+                <li>POSシステムのリプレースインフラ設計・構築</li>
+                <li>車両情報管理システムのインフラ設計およびオンプレインフラ構築</li>
+                <li>車両状態管理システムのクラウド構築およびオンプレインフラ構築</li>
+                <li>医療診断公開システム基盤の新規設計・構築</li>
+                <li>金融系社内システム基盤リプレースに伴う設計・構築</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2014年〜2020年：IT企業社員（役職） -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+              <div class="timeline__line"></div>
+            </div>
+            <div class="timeline__content">
+              <span class="timeline__period">2014年〜2020年</span>
+              <h3 class="timeline__title">IT企業社員（役職）</h3>
+              <ul class="timeline__desc-list">
+                <li>PC管理アプリケーションの新規開発・改修およびサーバの保守・運用サポート</li>
+                <li>流通管理システムのサーバ管理およびアプリケーション保守、他部署の技術サポート</li>
+                <li>在庫管理アプリケーション（Windows アプリケーションおよび WebAPI）の改修・保守</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2012年〜2014年：IT企業社員 -->
+          <div class="timeline__item">
+            <div class="timeline__marker">
+              <div class="timeline__dot"></div>
+              <!-- 最後のアイテムはラインなし -->
+            </div>
+            <div class="timeline__content">
+              <span class="timeline__period">2012年〜2014年</span>
+              <h3 class="timeline__title">IT企業社員</h3>
+              <ul class="timeline__desc-list">
+                <li>バックアップ OSS ソフトウェアの運用・保守およびユーザサポート</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__name">
+        FTech<span class="footer__accent">365</span>
+      </p>
+      <p class="footer__copy">SES・フリーランス案件のご依頼はお気軽にご連絡ください。</p>
+      <p class="footer__cr">&copy; 2025 FTech365 All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- スキルバー：スクロール連動アニメーション -->
+  <script>
+    // スキルバーが画面内に入ったタイミングでバーを伸ばす（IntersectionObserver）
+    const bars = document.querySelectorAll('.skill-bar-fill');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bar = entry.target;
+          bar.style.width = bar.dataset.width + '%';
+          observer.unobserve(bar);
+        }
+      });
+    }, { threshold: 0.3 });
+    bars.forEach(bar => observer.observe(bar));
+  </script>
+
+</body>
+</html>
